@@ -27,8 +27,9 @@ jobs:
         node-version: 12
     - name: Install Surge
       run: npm install -g surge
+      
     - name: Run Surge
-      run: surge ./ bootcamp2020mywaqar.surge.sh --token ${{secrets.WAQAR_SURGE}}
+      run: surge ./ bootcamp2020mywaqar1.surge.sh --token ${{secrets.WAQAR_SURGE}}
       
 
     
